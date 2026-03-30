@@ -16,7 +16,7 @@ class Solution {
         // Step 2: DSU union
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
-                if (lcp[i][j] > 0) {
+                if (lcp[i][j] > 0) {March-
                     union(i, j, parent);
                 }
             }
